@@ -28,7 +28,8 @@ jobs:
             cd backend
             pm2 restart fastapi-backend
 
-            cd ../frontend
+            cd ..
+            cd frontend
             npm install
             npm run build
             pm2 restart frontend
